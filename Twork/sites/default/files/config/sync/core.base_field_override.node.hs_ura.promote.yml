@@ -1,0 +1,22 @@
+uuid: 0c683988-0f6d-40b1-80da-0d7eb2d726cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hs_ura
+id: node.hs_ura.promote
+field_name: promote
+entity_type: node
+bundle: hs_ura
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

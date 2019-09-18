@@ -1,0 +1,18 @@
+uuid: a6c2102c-0188-4c8b-a0c0-4d0c4d3f31c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Submission view'
+type: submission_view
+description: 'Tällä sivulla on view (työnantaja/työnhakijailmoitukset), jolle on linkki kiitos-sivulta'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,17 @@
+uuid: 26eb48ca-ec76-41b9-874b-611ceabf3d82
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Kiitos käynnistä'
+type: kiitos_kaynnista
+description: 'Työnantaja ohjautuu tälle sivulle hakemuksen jätettyään. Sivulle tulee linkki työpaikkauutisiin ja jo jätettyihin työnhakuilmoituksiin'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

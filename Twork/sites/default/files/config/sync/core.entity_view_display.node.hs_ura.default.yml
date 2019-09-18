@@ -1,0 +1,39 @@
+uuid: 424be457-9dcb-44ac-89e0-90ca8bccc9ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hs_ura.body
+    - field.field.node.hs_ura.field_hs_image
+    - node.type.hs_ura
+  module:
+    - image
+    - text
+    - user
+id: node.hs_ura.default
+targetEntityType: node
+bundle: hs_ura
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_hs_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: f818fb5e-840b-4ef0-9f68-8cdb57394d5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.feeds_item
+    - node.type.hs_ura
+  module:
+    - feeds
+id: node.hs_ura.feeds_item
+field_name: feeds_item
+entity_type: node
+bundle: hs_ura
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

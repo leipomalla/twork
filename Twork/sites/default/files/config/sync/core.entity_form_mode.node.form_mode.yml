@@ -1,0 +1,10 @@
+uuid: f19dc13c-bc8c-456c-a08f-61aa790267da
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.form_mode
+label: 'Form mode'
+targetEntityType: node
+cache: true

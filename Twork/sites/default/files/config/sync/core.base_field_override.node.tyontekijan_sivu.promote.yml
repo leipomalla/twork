@@ -1,0 +1,22 @@
+uuid: 60e95258-767d-4345-90fc-1bcf6fca9bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tyontekijan_sivu
+id: node.tyontekijan_sivu.promote
+field_name: promote
+entity_type: node
+bundle: tyontekijan_sivu
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

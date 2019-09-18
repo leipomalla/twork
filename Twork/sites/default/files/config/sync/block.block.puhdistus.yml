@@ -1,0 +1,25 @@
+uuid: 47d845fd-6bbd-4112-ac5e-adcbb704fe4d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4f8509ff-7261-4121-8a0c-f9c99b61b7a6'
+  module:
+    - block_content
+  theme:
+    - TWorktheme
+id: puhdistus
+theme: TWorktheme
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:4f8509ff-7261-4121-8a0c-f9c99b61b7a6'
+settings:
+  id: 'block_content:4f8509ff-7261-4121-8a0c-f9c99b61b7a6'
+  label: puhdistus
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,28 @@
+uuid: 076e16c4-8a81-4cae-bdee-bf3c847a6312
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.submission_view.body
+    - node.type.submission_view
+  module:
+    - text
+    - user
+id: node.submission_view.default
+targetEntityType: node
+bundle: submission_view
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

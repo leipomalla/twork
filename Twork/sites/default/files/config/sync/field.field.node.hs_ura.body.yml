@@ -1,0 +1,22 @@
+uuid: 3a8ebd17-b5a1-4a36-b1f4-82b6c9c3ff64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.hs_ura
+  module:
+    - text
+id: node.hs_ura.body
+field_name: body
+entity_type: node
+bundle: hs_ura
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

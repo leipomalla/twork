@@ -1,0 +1,40 @@
+uuid: ac1aa628-4b75-4adc-bd87-c050ac701697
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:25cec9f2-56d1-4eed-a7ed-d0acdf1b5250'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - TWorktheme
+id: mainnavigationfooter
+theme: TWorktheme
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:25cec9f2-56d1-4eed-a7ed-d0acdf1b5250'
+settings:
+  id: 'block_content:25cec9f2-56d1-4eed-a7ed-d0acdf1b5250'
+  label: 'Main navigation footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      kiitos_kaynnista: kiitos_kaynnista
+      lomake: lomake
+      news: news
+      page: page
+      tyonantajan_sivu: tyonantajan_sivu
+      tyontekijan_sivu: tyontekijan_sivu
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,22 @@
+uuid: 470d73d4-3601-41be-a4f8-9dd5ff74bf8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.submission_view
+  module:
+    - text
+id: node.submission_view.body
+field_name: body
+entity_type: node
+bundle: submission_view
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

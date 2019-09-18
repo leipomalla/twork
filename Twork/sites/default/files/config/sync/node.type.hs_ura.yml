@@ -1,0 +1,17 @@
+uuid: 87d0e1e2-804c-48f0-8bf4-94b7161c91ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'HS Ura'
+type: hs_ura
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

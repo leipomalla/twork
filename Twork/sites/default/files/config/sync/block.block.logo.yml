@@ -1,0 +1,25 @@
+uuid: 03daf392-fffb-4f6a-bd43-7bce196d6539
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0cd69b38-5e18-4bbd-8079-da1f2e15b26e'
+  module:
+    - block_content
+  theme:
+    - TWorktheme
+id: logo
+theme: TWorktheme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:0cd69b38-5e18-4bbd-8079-da1f2e15b26e'
+settings:
+  id: 'block_content:0cd69b38-5e18-4bbd-8079-da1f2e15b26e'
+  label: Logo
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

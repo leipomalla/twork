@@ -1,0 +1,30 @@
+uuid: 1a01cb94-85d1-4003-9a5b-adaf4a85a51e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.submission_view.body
+    - node.type.submission_view
+  module:
+    - text
+    - user
+id: node.submission_view.teaser
+targetEntityType: node
+bundle: submission_view
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

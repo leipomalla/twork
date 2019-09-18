@@ -1,0 +1,30 @@
+uuid: 4d616831-1f4d-4301-b556-7c92548ff6cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hs_ura.body
+    - node.type.hs_ura
+  module:
+    - text
+    - user
+id: node.hs_ura.teaser
+targetEntityType: node
+bundle: hs_ura
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

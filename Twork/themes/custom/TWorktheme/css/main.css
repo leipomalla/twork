@@ -1,0 +1,287 @@
+body {
+    /*background-image: url("/themes/custom/TWorktheme/images/turquise.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-color: #faf7f2;
+    font-family: 'Roboto Mono', monospace;
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    color: #2bb3c0;
+    font-size: 3,5m;
+    /*text-shadow: 3px 6px #144226;*/
+    margin-top: 70px;
+}
+.view-content h2 {
+    font-size: 1em;
+}
+.tabs ul {
+    visibility: hidden;
+}
+/*#block-tworktheme-page-title h1 {
+    visibility: hidden;*/ /*ei näkynyt muillakaan sivuilla*/
+
+#block-tworktheme-page-title {
+    height: 75px;
+}
+
+#logocontainer {
+    position: relative;
+}
+#logopng {
+    position: absolute;
+    top: 20px;
+    left:10px;
+    height:40px;
+    width:40px;
+}
+#logotxt {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    margin-left: 20px;
+    color: #2bb3c0;
+    position: absolute;
+}
+#container {
+    width: 520px; 
+    height:240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paraluokka {
+    margin: 35% auto auto -10%;
+}
+
+#th {
+    float:left;
+    left: 180px;
+    bottom: -124px;
+    background-color: #108f89;
+    width: 120px; 
+    height:120px; 
+    padding:40px; 
+    border:black; 
+    border-radius:50%;
+    margin: 30px 30px 30px 30px;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 27px;
+    box-shadow: 2px 2px 5px 0px;
+   
+}   
+#th:hover {
+   
+    z-index: 5;
+    width:180px; 
+    height:180px; 
+    font-size: 40px;
+    margin: 0;
+    /*-webkit-transition: width 2s; /* Safari prior 6.1 */
+    transition: width 0.5s, height 0.5s, font-size 0.5s, margin 0.5s;
+   
+}
+
+#ta {
+    float: right;
+    left: 372px;
+    bottom: -124px;
+    background-color:#e8ab7d;
+    width:120px; 
+    height:120px; 
+    padding:40px; 
+    border:black; 
+    border-radius:50%;
+    margin: 30px 30px 30px 30px;
+    cursor: pointer;
+    font-size: 27px;
+    box-shadow: 2px 2px 5px 0px;
+}
+#ta:hover {
+ 
+    z-index: 5;
+    width:180px; 
+    height:180px; 
+    font-size: 40px;
+    margin: 0;
+    /*-webkit-transition: width 2s; /* Safari prior 6.1 */
+    transition: width 0.5s, height 0.5s, font-size 0.5s, margin 0.5s;
+
+}
+.hakemukset th td {
+    border: 1px black solid;
+}
+.yksi {
+    width: 10%;
+    text-align: center;
+    color: #04585f; 
+}
+.kaksi {
+    width: 10%;
+    text-align: center;
+    color: #04585f; 
+
+}
+.kolme {
+    width: 10%;
+    text-align: center;
+    color: #04585f; 
+
+}
+.nelja {
+    width: 10%;
+    text-align: center;
+    color: #04585f; 
+
+}
+.viisi {
+    width: 10%;
+    text-align: center;
+    color: #04585f; 
+}
+.kuusi{
+    width: 10%;
+    text-align: center;
+    color: #04585f; 
+}
+.seitseman {
+    width: 10%;
+    text-align: center;
+    color: #04585f; 
+}
+#clear {
+    clear: both;
+}
+#aboutus {
+    text-align: center;
+}
+
+#aboutustxt {
+    margin:0 auto 0 auto;
+    color: #2bb3c0;
+}
+#aboutusimg img {
+    border-radius: 20px;
+}
+#kuvadiv {
+    margin-left: 457px;
+}
+#aboutustxt {
+    text-align: center;
+}
+#footermenu {
+    text-align: center;
+    color: #2bb3c0;
+    position: relative;
+}
+#footermenu ul li {
+    list-style-type: none;
+    display: inline;
+    position: sticky;
+}
+#footermenu a {
+    color: #2bb3c0;
+}
+#footermenu a:visited {
+    color: #218a94;
+}
+#footermenu a:active {
+    color:hsl(185, 16%, 84%);
+}
+.menu-item li {
+    margin-top: 300px;
+}
+.region-content table, th, td {
+    border: 1px #2bb3c0 solid;
+}
+ /*   
+.region-sidebar-first {
+    
+}*/
+
+.kiitoskaynnista p {
+    text-align: center;
+    border: 2px black solid;
+    margin: auto;
+    width: 50%;
+}
+.field--name-field-tyonantajalomake .field__label {
+    visibility: hidden;
+}
+.vastaanottoimg {
+    width: 50%;
+    height: 50%;
+    margin: 8px 5px 5px 300px;
+    border-radius: 30px;
+}
+#tiimikuva p {
+    margin: 5px 5px 5px 529px;
+    color: hsl(185, 16%, 84%);
+}
+#kiitoskuva p {
+    margin: 5px 5px 5px 479px;
+    color: hsl(185, 16%, 84%);
+}
+
+@media only screen and (max-width: 768px) {
+    #toolbar-item-administration-tray {
+        visibility: hidden;
+    }
+    #toolbar-item-administration-tray:hover {
+        visibility: visible;
+    }
+    #th {
+        margin-left: 60px;
+    }
+    #ta {
+        right: -251px;
+    }
+    #block-tworktheme-account-menu {
+        margin-top: 376px;
+        margin-left: 20px;
+    }
+--------------------------/*tästä alkaa lomake css*/----------
+
+.progress-step.is-active .progress-marker {
+    background-color: #2bb3c0;
+}
+
+.webform-progress ul li .progress-step.is-active {
+    background-color: #2bb3c0;
+}
+h1 {
+    text-align: center;
+    color: #2bb3c0;
+}
+.webform-progress-tracker .progress-step.is-active .progress-title {
+    font-weight: bold;
+    color: #2bb3c0;
+}
+.form-textarea-wrapper textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 40px;
+    padding: 10px;
+}
+.webform-flexbox {
+    display: block;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 30px;
+    padding: 10px;
+}
+.form-item, .form-actions {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: 20px;
+}
+.label {
+    padding: 10px;
+}
+#edit-osaaminen- {
+    padding: 30px;
+}

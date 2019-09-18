@@ -1,0 +1,22 @@
+uuid: d2db5f07-16ad-4950-9138-a224909f1672
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.submission_view
+id: node.submission_view.promote
+field_name: promote
+entity_type: node
+bundle: submission_view
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
